@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+.container{
+ width: 100%;
+ max-width: 1400px;
+ margin: 0 auto;
+ font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(231, 227, 227);
+}
+.about div{
+    border-radius: 20px;
+  
+
+}
+img{
+   height: 100vh;
+   object-fit: cover;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px rgb(93, 90, 90);
+}
+.left , .right{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.top{
+    width: 100%;
+    height:55vh ;
+   
+    padding: 10px 20px;
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgb(93, 90, 90);
+}
+.bottom{
+    width:100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.botm-l{
+    width: 48%;
+    background-color: rgba(177, 14, 14, 0.825);
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(93, 90, 90);
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+}
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(183, 157, 11, 0.825);
+    border: none;
+    border-radius: 15px;
+    color: azure;
+}
+.botm-r{
+    width: 48%;
+    background-color: rgba(183, 157, 11, 0.825);
+    padding: 10px 20px;
+    box-shadow: 5px 5px 5px rgb(93, 90, 90);
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
